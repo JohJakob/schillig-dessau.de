@@ -26,6 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   zu arbeiten und leckeren Kaffee und selbstgemachten Kuchen zu genießen.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://schillig-dessau.de" # the base hostname & protocol for your site, e.g. http://example.com
+author: Johannes Jakob
 github_username:  johjakob
 
 defaults:
