@@ -1,0 +1,15 @@
+main {
+  margin: 0 auto;
+  padding: $padding-content;
+  max-width: $max_width-content;
+  display: grid;
+  justify-content: center;
+  gap: 2rem
+}
+
+@media (min-width: $breakpoint-desktop) {
+  main {
+    padding: $padding-content * 5;
+    grid-auto-columns: min-content auto;
+  }
+}
