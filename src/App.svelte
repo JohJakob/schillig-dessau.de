@@ -2,6 +2,10 @@
 	import Logo from "./components/Logo.svelte";
 </script>
 
+<svelte:head>
+	<title>Café Schillig</title>
+</svelte:head>
+
 <body>
 	<main>
 		<div>
