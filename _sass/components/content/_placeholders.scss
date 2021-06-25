@@ -1,0 +1,26 @@
+.section-placeholder {
+  p {
+    &[lang=de] {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    &[lang=en] {
+      margin-bottom: 3em;
+      font-weight: 350
+    }
+  }
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .section-placeholder {
+    grid-column: 2 / end;
+    grid-row: 2;
+
+    p {
+      &[lang=de] {
+        font-size: 2em
+      }
+    }
+  }
+}
