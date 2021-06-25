@@ -6,6 +6,7 @@ import { terser } from 'rollup-plugin-terser';
 import sveltePreprocess from 'svelte-preprocess';
 import typescript from '@rollup/plugin-typescript';
 import css from 'rollup-plugin-css-only';
+import image from '@rollup/plugin-image';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -40,7 +41,16 @@ export default {
 	},
 	plugins: [
 		svelte({
-			preprocess: sveltePreprocess({ sourceMap: !production }),
+			preprocess: sveltePreprocess({ 
+				sourceMap: !production,
+				scss: {
+					includePaths: ['src', 'node_modules'],
+					prependData: `@import 'node_modules/normalize.css/normalize';`
+				},
+				postcss: {
+					plugins: [require('autoprefixer')()]
+				}
+			 }),
 			compilerOptions: {
 				// enable run-time checks when not in production
 				dev: !production
@@ -75,7 +85,9 @@ export default {
 
 		// If we're building for production (npm run build
 		// instead of npm run dev), minify
-		production && terser()
+		production && terser(),
+
+		image()
 	],
 	watch: {
 		clearScreen: false

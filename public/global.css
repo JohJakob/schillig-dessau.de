@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Name Sans";
+  src: url("/assets/fonts/name_sans-variable.woff2") format('woff2');
+}
+
 html, body {
 	position: relative;
 	width: 100%;
