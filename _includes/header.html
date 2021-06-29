@@ -1,0 +1,9 @@
+<header>
+  <a href="/">
+    {% assign logo_color = 'blue' %}
+    {% if page.background == 'blue' %}
+      {% assign logo_color = 'white' %}
+    {% endif %}
+    <img class="logo" src="/assets/images/schillig_logo_{{ logo_color }}.png" alt="Schillig">
+  </a>
+</header>
