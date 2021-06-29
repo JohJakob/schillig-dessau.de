@@ -1,5 +1,9 @@
-p {
+p, ul {
   max-width: $max_width-text;
+  line-height: 1.2
+}
+
+p {
   hyphens: auto;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
@@ -9,4 +13,8 @@ p {
     -webkit-hyphens: none;
     -moz-hyphens: none;
   }
+}
+
+ul {
+  padding-left: 1.5em
 }
