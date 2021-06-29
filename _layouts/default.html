@@ -23,7 +23,7 @@
     <link rel="icon" type="image/x-icon" href="{{ 'favicon.png' | relative_url }}">
   </head>
   <body {% if page.background == 'blue' %}class="body-blue"{% endif %}>
-    <main>
+    <main {% if page.main %}class="{{ page.main }}"{% endif %}>
       {{ content }}
     </main>
     {% include footer.html %}

@@ -1,7 +1,11 @@
 main {
   margin: 0 auto;
   padding: $padding-content;
+  width: 100%;
   max-width: $max_width-content;
+}
+
+.main-temp-grid {
   display: grid;
   justify-content: center;
   align-content: start;
@@ -9,7 +13,7 @@ main {
 }
 
 @media (min-width: $breakpoint-desktop) {
-  main {
+  .main-temp-grid {
     padding: $padding-content * 5;
     grid-auto-columns: min-content auto
   }
