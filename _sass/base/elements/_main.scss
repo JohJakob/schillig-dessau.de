@@ -1,15 +1,17 @@
-main {
-  margin: 0 auto;
-  padding: $padding-content;
-  max-width: $max_width-content;
+.main-temp-grid {
   display: grid;
   justify-content: center;
-  gap: 2rem
+  align-content: start;
+  gap: 2rem;
+
+  & + footer ul {
+    justify-content: center
+  }
 }
 
 @media (min-width: $breakpoint-desktop) {
-  main {
+  .main-temp-grid {
     padding: $padding-content * 5;
-    grid-auto-columns: min-content auto;
+    grid-auto-columns: min-content auto
   }
 }

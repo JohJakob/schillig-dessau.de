@@ -1,3 +1,20 @@
+p, ul {
+  max-width: $max_width-text;
+  line-height: 1.2
+}
+
 p {
-  max-width: $max_width-text
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+
+  &[lang=en] {
+    hyphens: none;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+  }
+}
+
+ul {
+  padding-left: 1.5em
 }
