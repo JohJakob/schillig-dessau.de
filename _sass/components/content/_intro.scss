@@ -1,0 +1,45 @@
+.section-intro {
+  p {
+    margin-block-start: 0;
+
+    &[lang=de] {
+      font-size: 1.2em;
+      font-weight: 500;
+      line-height: 1.1;
+      hyphens: none;
+      -webkit-hyphens: none;
+      -moz-hyphens: none
+    }
+
+    &[lang=en] {
+      font-weight: 350;
+      opacity: .8
+    }
+  }
+
+  hr {
+    margin: 3em 0;
+    width: 30%
+  }
+
+  a.icon {
+    margin-top: 3em
+  }
+
+  .section-buttons {
+    margin-top: 2em
+  }
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .section-intro {
+    grid-column: 2 / end;
+    grid-row: 2;
+
+    p {
+      &[lang=de] {
+        font-size: 1.5em
+      }
+    }
+  }
+}
