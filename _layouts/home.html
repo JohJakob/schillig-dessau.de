@@ -1,0 +1,10 @@
+<!doctype html>
+<html>
+  {% include head.html %}
+  <body {% if page.background == 'blue' %}class="body-blue"{% endif %}>
+    <main {% if page.main %}class="{{ page.main }}"{% endif %}>
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </body>
+</html>
