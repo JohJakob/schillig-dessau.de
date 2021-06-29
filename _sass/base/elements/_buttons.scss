@@ -1,0 +1,43 @@
+button {
+  padding: .8em 1em;
+  font-family: $font_family-default;
+  font-weight: 500;
+  color: #fff;
+  background-color: $color-schillig_blue;
+  border: none;
+  border-radius: $border_radius-button;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none
+}
+
+.button-light {
+  color: $color-schillig_blue;
+  background-color: #fff
+}
+
+.button-secondary {
+  background: none;
+  color: $color-schillig_blue;
+  border-color: $color-schillig_blue;
+  border-width: 1px;
+  border-style: solid
+}
+
+.button-secondary.button-light {
+  color: #fff;
+  border-color: #fff
+}
+
+.section-buttons {
+  display: flex;
+
+  button {
+    margin-right: 1em;
+
+    &:last-child {
+      margin-right: 0
+    }
+  }
+}
