@@ -1,27 +1,6 @@
 <!doctype html>
 <html lang="de">
-  <head>
-    <title>{{ page.title }}</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="viewport" content="width=device-width">
-    <meta name="language" content="de">
-    <meta name="author" content="{{ site.author }}">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="{{ page.title }}">
-    <meta name="twitter:url" content="{{ page.url }}">
-    <meta name="twitter:description" content="{{ site.tagline }}">
-    <meta name="twitter:image" content="{{ site.baseurl }}/apple-touch-icon-precomposed.png">
-    <meta property="og:title" content="{{ page.title }}">
-    <meta property="og:description" content="{{ site.tagline }}">
-    <meta property="og:url" content="{{ page.url }}">
-    <meta property="og:image" content="{{ site.baseurl }}/apple-touch-icon-precomposed.png">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="de_DE">
-    <link rel="stylesheet" href="{{ 'css/styles.css' | relative_url }}" media="screen">
-    <link rel="mask-icon" href="{{ 'safari-tab-icon.svg' | relative_url }}" color="#252C54" sizes="any">
-    <link rel="icon" type="image/x-icon" href="{{ 'favicon.png' | relative_url }}">
-  </head>
+  {% include head.html %}
   <body {% if page.background == 'blue' %}class="body-blue"{% endif %}>
     <main {% if page.main %}class="{{ page.main }}"{% endif %}>
       {{ content }}
