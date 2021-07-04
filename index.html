@@ -16,7 +16,10 @@ main: main-temp-grid
     <button class="button-light" onclick="document.getElementById('section-survey-de').style.display = 'block'; document.body.style.position = 'fixed';">Zur Umfrage</button>
     <button class="button-light button-secondary" onclick="document.getElementById('section-survey-en').style.display = 'block'; document.body.style.position = 'fixed';">To the survey</button>
   </div>
-  <a class="icon icon-white icon-instagram" href="https://instagram.com/schillig_dessau"></a>
+  <div>
+    <a class="icon icon-white icon-instagram" href="https://instagram.com/schillig_dessau"></a>
+    <a class="icon icon-white icon-mail" href="#" data-name="cafe" data-domain="schillig-dessau" data-tld="de" onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;"></a>
+  </div>
 </section>
 <section id="section-survey-de" class="section-survey">
   <iframe id="typeform-full" width="100%" height="100%" frameborder="0" allow="camera; microphone; autoplay; encrypted-media;" src="https://form.typeform.com/to/BXyiKVph?typeform-medium=embed-snippet" role="document"></iframe>
