@@ -1,10 +1,13 @@
-button {
+button, .a-button {
   padding: .8em 1em;
+  color: #fff;
   font-family: $font_family-default;
   font-weight: 500;
-  color: #fff;
+  text-align: center;
+  line-height: 1.2;
   background-color: $color-schillig_blue;
-  border: none;
+  border-width: 1px;
+  border-style: solid;
   border-radius: $border_radius-button;
   cursor: pointer;
   appearance: none;
@@ -14,15 +17,14 @@ button {
 
 .button-light {
   color: $color-schillig_blue;
-  background-color: #fff
+  background-color: #fff;
+  border-color: #fff
 }
 
 .button-secondary {
   background: none;
   color: $color-schillig_blue;
-  border-color: $color-schillig_blue;
-  border-width: 1px;
-  border-style: solid
+  border-color: $color-schillig_blue
 }
 
 .button-secondary.button-light {
@@ -32,9 +34,10 @@ button {
 
 .section-buttons {
   display: flex;
+  flex-wrap: wrap;
 
-  button {
-    margin-right: 1em;
+  button, .a-button {
+    margin: 0 1em 1em 0;
 
     &:last-child {
       margin-right: 0
