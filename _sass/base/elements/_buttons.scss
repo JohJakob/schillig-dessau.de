@@ -26,10 +26,22 @@ button, .a-button {
   border-color: #fff
 }
 
+.orange-text .button-light {
+  color: #fff;
+  background-color: $color-schillig_orange;
+  border-color: $color-schillig_orange
+}
+
 .button-secondary {
   background: none;
   color: $color-schillig_blue;
   border-color: $color-schillig_blue
+}
+
+.orange-text .button-secondary {
+  background: none;
+  color: $color-schillig_orange;
+  border-color: $color-schillig_orange
 }
 
 .button-secondary.button-light {
