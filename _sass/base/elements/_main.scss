@@ -1,17 +1,1 @@
-.main-temp-grid {
-  display: grid;
-  justify-content: center;
-  align-content: start;
-  gap: 2rem;
 
-  & + footer ul {
-    justify-content: center
-  }
-}
-
-@media (min-width: $breakpoint-desktop) {
-  .main-temp-grid {
-    padding: $padding-content * 5;
-    grid-auto-columns: min-content auto
-  }
-}
