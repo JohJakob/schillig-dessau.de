@@ -1,7 +1,25 @@
+.icon-list {
+  margin: 2em 0;
+  padding: 0;
+  line-height: 1;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    margin-right: 1.25em;
+
+    &:last-child {
+      margin-right: 0
+    }
+  }
+}
+
 .icon {
-  margin-right: .5em;
+  margin: 0;
   width: 1.5em;
   height: 1.5em;
+  background-color: $color-schillig_blue;
   mask-size: contain;
   mask-repeat: no-repeat;
   -webkit-mask-size: contain;
@@ -10,6 +28,11 @@
 
   &:last-child {
     margin-right: 0
+  }
+
+  a {
+    margin: 0;
+    padding: 0
   }
 }
 
@@ -20,6 +43,11 @@
 .icon-instagram {
   mask-image: url("/assets/images/icons/social/instagram_icon.svg");
   -webkit-mask-image: url("/assets/images/icons/social/instagram_icon.svg")
+}
+
+.icon-facebook {
+  mask-image: url("/assets/images/icons/social/facebook_icon.svg");
+  -webkit-mask-image: url("/assets/images/icons/social/facebook_icon.svg")
 }
 
 .icon-mail {
