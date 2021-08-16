@@ -1,15 +1,16 @@
 footer {
   display: flex;
+  flex-direction: column;
   
   ul {
     margin: 0;
     padding: 0;
     max-width: none;
+    color: transparentize($color-schillig_blue, .25);
     font-size: .8em;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    opacity: .75;
 
     li {
       margin-right: 2em;
@@ -22,5 +23,5 @@ footer {
 }
 
 .footer-centered {
-  justify-content: center
+  align-items: center
 }
