@@ -1,3 +1,3 @@
 # schillig-dessau.de
 
-_Website of the student cafe project Schillig in Dessau, Germany_
+_[Website](https://schillig-dessau.de) of the student-run community hub project Schillig in Dessau, Germany_
