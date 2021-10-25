@@ -11,7 +11,7 @@ Johannes Jakob<br>
 Kornhausstraße 31g<br>
 06846 Dessau-Roßlau
 
-E-Mail: <a class="link-mail" href="#" data-name="cafe" data-domain="schillig-dessau" data-tld="de" onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">
+E-Mail: <a class="link-mail" href="#" data-name="hello" data-domain="schillig-dessau" data-tld="de" onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">
 
 ### Verantwortlich für den Inhalt gemäß § 55 Abs. 2 RStV
 

@@ -69,7 +69,7 @@ Johannes Jakob<br>
 Kornhausstraße 31g<br>
 06846 Dessau-Roßlau
 
-E-Mail: <a class="link-mail" href="#" data-name="cafe" data-domain="schillig-dessau" data-tld="de" onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">
+E-Mail: <a class="link-mail" href="#" data-name="hello" data-domain="schillig-dessau" data-tld="de" onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">
 
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, E-Mail-Adressen o.Ä.) entscheidet.
 
