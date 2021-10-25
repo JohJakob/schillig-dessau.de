@@ -18,16 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Café Schillig
-email: cafe@schillig-dessau.de
+title: Schillig
+email: hello@schillig-dessau.de
 description: >- # this means to ignore newlines until "baseurl:"
-  Wir wollen im Dessauer Johannisviertel einen Café-Verein gründen, in dem Studierende,
-  die Nachbarschaft und Menschen aus aller Welt zusammenkommen können, um zu entspannen,
-  zu arbeiten und leckeren Kaffee und selbstgemachten Kuchen zu genießen.
+  Wir wollen im Dessauer Johannisviertel einen studentisch betriebenen Community Hotspot schaffen,
+  in dem Studierende, die Nachbarschaft und Menschen aus aller Welt zusammenkommen können,
+  um zu entspannen, zu arbeiten und leckeren Kaffee und selbstgemachten Kuchen zu genießen.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://schillig-dessau.de" # the base hostname & protocol for your site, e.g. http://example.com
 author: Johannes Jakob
-tagline: Café-Verein in Dessau (in the making)
+tagline: Community Hotspot in Dessau (in the making)
 github_username:  johjakob
 
 defaults:
