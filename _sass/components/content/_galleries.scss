@@ -1,0 +1,19 @@
+.exhibition-gallery {
+  margin: 4rem 0;
+  padding: 0;
+  max-width: none;
+  list-style: none;
+  display: grid;
+  justify-content: stretch;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 340px));
+  grid-template-rows: masonry;
+  gap: 4rem;
+
+  figure {
+    margin: 0;
+
+    figcaption {
+      margin-top: .5em
+    }
+  }
+}
