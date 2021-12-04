@@ -1,0 +1,13 @@
+.exhibition-timetable {
+  margin-bottom: 1em;
+
+  td {
+    padding: 0;
+    height: 1.5em;
+
+    &:first-child {
+      padding-right: 1em;
+      font-weight: bold;
+    }
+  }
+}
