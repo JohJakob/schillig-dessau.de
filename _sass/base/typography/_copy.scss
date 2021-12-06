@@ -21,6 +21,11 @@ ul {
   padding-left: 1.5em
 }
 
+strong {
+  font-weight: normal;
+  font-variation-settings: 'wght' 700
+}
+
 hr {
   margin: 1em 0;
   height: 1px;
@@ -31,4 +36,8 @@ hr {
 
 .no-wrap {
   white-space: nowrap
+}
+
+.hr-max-width {
+  max-width: $max_width-text
 }
