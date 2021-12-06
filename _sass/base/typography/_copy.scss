@@ -32,3 +32,7 @@ hr {
 .no-wrap {
   white-space: nowrap
 }
+
+.hr-max-width {
+  max-width: $max_width-text
+}
