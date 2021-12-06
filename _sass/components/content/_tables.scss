@@ -1,13 +1,16 @@
 .exhibition-timetable {
   margin-bottom: 1em;
+  border-collapse: collapse;
 
   td {
     padding: 0;
-    height: 1.5em;
+    line-height: 1.5;
+    vertical-align: baseline;
 
     &:first-child {
       padding-right: 1em;
       font-weight: bold;
+      white-space: nowrap
     }
   }
 }
