@@ -10,7 +10,8 @@ body {
 header, main, footer, .content-main > * {
   margin-left: auto;
   margin-right: auto;
-  padding: $padding-content;
+  padding-left: $padding-content;
+  padding-right: $padding-content;
   width: 100%;
   max-width: $max_width-content
 }

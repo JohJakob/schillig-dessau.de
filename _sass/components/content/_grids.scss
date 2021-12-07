@@ -1,0 +1,15 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .grid-1-2 {
+    grid-template-columns: minmax(200px, 1fr) minmax(200px, 2fr)
+  }
+
+  .grid-2-1 {
+    grid-template-columns: minmax(200px, 2fr) minmax(200px, 1fr)
+  }
+}
