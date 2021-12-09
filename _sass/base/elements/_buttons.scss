@@ -9,7 +9,7 @@ button, .a-button {
   border-width: 1px;
   border-style: solid;
   border-radius: $border_radius-button;
-  transition: all .2s ease;
+  transition: all .2s ease-out;
   cursor: pointer;
   appearance: none;
   -webkit-appearance: none;
@@ -47,6 +47,17 @@ button, .a-button {
 .button-secondary.button-light {
   color: #fff;
   border-color: #fff
+}
+
+.button-red {
+  color: white;
+  background-color: $color-red;
+  border-color: $color-red;
+
+  &:hover {
+    background-color: lighten($color-red, 10%);
+    border-color: lighten($color-red, 10%)
+  }
 }
 
 .section-buttons {
