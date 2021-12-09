@@ -1,6 +1,6 @@
 .card {
   margin: 2rem 0;
-  padding: 2rem;
+  padding: 1.2rem;
   border-radius: $border_radius-card;
 
   *:first-child {
@@ -18,4 +18,10 @@
 
 .card-light-blue {
   background-color: $color-schillig_blue-light;
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .card {
+    padding: 2rem
+  }
 }
