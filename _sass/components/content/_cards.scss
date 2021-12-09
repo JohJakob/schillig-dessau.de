@@ -16,8 +16,13 @@
   max-width: $max_width-text;
 }
 
-.card-light-blue {
+.card-blue-light {
   background-color: $color-schillig_blue-light;
+}
+
+.card-red-light {
+  color: $color-red;
+  background-color: $color-red-light
 }
 
 @media (min-width: $breakpoint-desktop) {
