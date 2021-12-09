@@ -2,4 +2,7 @@ $color-schillig_blue: #252c54;
 $color-schillig_blue-light: lighten($color-schillig_blue, 65%);
 $color-schillig_orange: hsl(23deg, 100%, 46%);
 
+$color-red: hsl(355deg, 85%, 40%);
+$color-red-light: lighten($color-red, 50%);
+
 $color-link: $color-schillig_blue;
