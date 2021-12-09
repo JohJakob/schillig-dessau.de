@@ -1,9 +1,26 @@
 .exhibition-timetable {
   margin-bottom: 1em;
+  font-size: .8em;
   border-collapse: collapse;
 
+  tr {
+    border-bottom: 1px solid transparentize($color-schillig_blue, .7);
+
+    &:first-child td {
+      padding-top: 0
+    }
+
+    &:last-child {
+      border-bottom: none;
+
+      td {
+        padding-bottom: 0
+      }
+    }
+  }
+
   td {
-    padding: 0;
+    padding: .5em 0;
     line-height: 1.5;
     vertical-align: baseline;
 
@@ -12,5 +29,11 @@
       font-weight: bold;
       white-space: nowrap
     }
+  }
+}
+
+@media (min-width: $breakpoint-desktop) {
+  .exhibition-timetable {
+    font-size: 1em
   }
 }
