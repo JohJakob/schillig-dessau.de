@@ -1,9 +1,17 @@
 a {
   color: inherit;
-  font-weight: 550;
-  text-decoration: none
+  font-variation-settings: 'wght' 550;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline
+  }
 }
 
 .link-mail:after {
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
   content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
 }

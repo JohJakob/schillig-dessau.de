@@ -23,7 +23,11 @@ ul {
 
 strong {
   font-weight: normal;
-  font-variation-settings: 'wght' 700
+  font-variation-settings: 'wght' 700;
+
+  a {
+    font-variation-settings: 'wght' 800;
+  }
 }
 
 hr {

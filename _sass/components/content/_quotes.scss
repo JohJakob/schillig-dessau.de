@@ -1,0 +1,19 @@
+.figure-quote {
+  margin: 1em 0;
+  padding: .5rem 0 .5rem 1rem;
+  max-width: $max_width-text;
+  border-left: 4px solid $color-schillig_blue-light;
+
+  blockquote {
+    margin: 0;
+    font-variation-settings: 'wght' 600;
+  }
+
+  figcaption {
+    margin-top: 1em;
+
+    &:before {
+      content: "—";
+    }
+  }
+}
