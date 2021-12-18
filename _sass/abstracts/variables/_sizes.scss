@@ -5,3 +5,13 @@ $max_width-text: 600px;
 
 $border-radius-card: 20px;
 $border_radius-button: 8px;
+
+:root {
+  --padding-card: 1.2rem;
+}
+
+@media (min-width: $breakpoint-desktop) {
+  :root {
+    --padding-card: 2rem
+  }
+}
