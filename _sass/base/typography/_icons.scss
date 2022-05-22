@@ -1,0 +1,16 @@
+.icon {
+  color: var(--gray-40);
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.icon-link {
+  transition: color .2s ease-out;
+
+  &:hover {
+    color: var(--gray-60);
+  }
+}

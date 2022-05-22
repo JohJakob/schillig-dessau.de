@@ -1,47 +1,12 @@
-p, ul {
-  max-width: $max_width-text;
-  line-height: 1.3
-}
-
-p {
-  hyphens: auto;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphenate-limit-chars: 3;
-  -ms-hyphenate-limit-lines: 3;
-
-  &[lang=en] {
-    hyphens: none;
-    -webkit-hyphens: none;
-    -moz-hyphens: none;
-  }
-}
-
-ul {
-  padding-left: 1.5em
-}
-
-strong {
-  font-weight: normal;
-  font-variation-settings: 'wght' 700;
-
-  a {
-    font-variation-settings: 'wght' 800;
-  }
+p, ul, ol {
+  max-width: var(--max_width-text);
+  line-height: 1.3;
 }
 
 hr {
-  margin: 1em 0;
+  margin: 3em 0;
+  max-width: var(--max_width-text);
   height: 1px;
-  background: currentColor;
+  background-color: var(--gray-10);
   border: none;
-  opacity: .75
-}
-
-.no-wrap {
-  white-space: nowrap
-}
-
-.hr-max-width {
-  max-width: $max_width-text
 }

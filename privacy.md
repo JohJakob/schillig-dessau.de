@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Schillig — Datenschutzerklärung
+layout: legal
 ---
 
 # Datenschutzerklärung
