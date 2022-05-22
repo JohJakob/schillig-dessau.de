@@ -1,0 +1,16 @@
+:root {
+  --padding-content: 1rem;
+
+  --max-width-content: 1200px;
+  --max_width-text: 600px;
+
+  --logo-height: 4rem;
+}
+
+@media (min-width: $breakpoint-s) {
+  :root {
+    --padding-content: 2rem;
+
+    --logo-height: 6rem;
+  }
+}

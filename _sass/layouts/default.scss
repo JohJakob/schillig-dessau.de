@@ -1,31 +1,12 @@
 html, body {
-  min-height: 100vh
+  min-height: 100vh;
 }
 
 body {
   display: flex;
-  flex-direction: column
-}
-
-header, main, footer, .content-main > * {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: $padding-content;
-  padding-right: $padding-content;
-  width: 100%;
-  max-width: $max_width-content
+  flex-direction: column;
 }
 
 main {
-  flex: 1 0 auto
-}
-
-.full-height {
-  min-height: 100vh
-}
-
-.no-layout {
-  margin: 0;
-  padding: 0;
-  max-width: none
+  flex: 1 0 auto;
 }

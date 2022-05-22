@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Schillig — Impressum
+layout: legal
 ---
 
 # Impressum
