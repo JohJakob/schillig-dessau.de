@@ -4,7 +4,14 @@
 // Import fonts
 @font-face {
   font-family: "Name Sans";
+  font-style: normal;
   src: url("/assets/fonts/Name_Sans_Variable.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Name Sans";
+  font-style: italic;
+  src: url("/assets/fonts/Name_Sans_Italic_Variable.woff2") format("woff2");
 }
 
 // Import variables and mixins

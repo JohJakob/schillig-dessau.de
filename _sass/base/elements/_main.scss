@@ -1,1 +1,34 @@
+main {
+  padding: calc(var(--padding-content) * 2) var(--padding-content);
 
+  & > * {
+    margin: 0 auto;
+    max-width: var(--max-width-content);
+
+    & > *:first-child {
+      margin-top: 0;
+    }
+  }
+
+  ::selection {
+    color: white;
+    background-color: var(--orange);
+  }
+
+  article.legal {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -ms-hyphenate-limit-chars: 6;
+    -ms-hyphenate-limit-lines: 2;
+  }
+}
+
+@supports (padding: max(0px)) {
+  main {
+    padding-left: Max(var(--padding-content), env(safe-area-inset-left));
+    padding-right: Max(var(--padding-content), env(safe-area-inset-right));
+  }
+}

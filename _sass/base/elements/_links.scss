@@ -1,17 +1,7 @@
 a {
-  color: inherit;
-  font-variation-settings: 'wght' 550;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline
-  }
+  color: var(--orange);
 }
 
 .link-mail:after {
-  hyphens: none;
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
   content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
 }

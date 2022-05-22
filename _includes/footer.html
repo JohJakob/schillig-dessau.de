@@ -1,21 +1,37 @@
-<footer {% if page.footer %}class="footer-{{ page.footer }}"{% endif %}>
-  <p>
-    Damit Schillig bestehen und sich weiterentwickeln kann, sind wir auf Spenden angewiesen. Wenn Du uns finanziell unterstützen möchtest, kannst Du das auf der <a href="https://projektschmiede-dessau.de/unterstuetzen">Website unseres Trägers, der Projektschmiede Dessau</a>, tun. Danke!
-  </p>
-  <ul class="icon-list">
-    <li>
-      <a class="icon icon-instagram" href="https://instagram.com/schillig_dessau" title="Instagram"></a>
-    </li>
-    <li>
-      <a class="icon icon-facebook" href="https://facebook.com/schilligdessau" title="Facebook"></a>
-    </li>
-    <li>
-      <a class="icon icon-mail" href="#" data-name="hello" data-domain="schillig-dessau" data-tld="de" onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;" title="Mail"></a>
-    </li>
-  </ul>
-  <ul>
-    <li><a href="/impressum">Impressum</a></li>
-    <li><a href="/datenschutz">Datenschutzerklärung</a></li>
-  </ul>
+<footer>
+  <section>
+    <ul class="social">
+      <li>
+        <a class="icon icon-link" href="https://instagram.com/schillig_dessau" title="Instagram">
+          <svg>
+            <use xlink:href="/assets/images/icons/social/social.svg#instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a class="icon icon-link" href="https://facebook.com/schilligdessau" title="Facebook">
+          <svg>
+            <use xlink:href="/assets/images/icons/social/social.svg#facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a class="icon icon-link" href="#" data-name="hello" data-domain="schillig-dessau" data-tld="de" onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;" title="Mail">
+          <svg>
+            <use xlink:href="/assets/images/icons/social/social.svg#mail"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <section>
+    <ul>
+      <li>
+        <a href="/imprint">Impressum</a>
+      </li>
+      <li>
+        <a href="/privacy">Datenschutz</a>
+      </li>
+    </ul>
+  </section>
 </footer>
-<script src="/js/nav.js"></script>
